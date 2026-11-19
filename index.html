@@ -1,172 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="An HTML and CSS portfolio website by Nabila Islam Borno, featuring selected academic projects and research.">
+  <title>Nabila Islam Borno | HTML & CSS Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <!-- Navbar -->
-    <nav>
-        <div class="left">
-            <a href="/">My Portfolio</a>
+  <nav aria-label="Main navigation">
+    <div class="left"><a href="index.html">Nabila Islam Borno</a></div>
+    <div class="right">
+      <a href="#skills"><i class="fa-solid fa-code" aria-hidden="true"></i><span>Skills</span></a>
+      <a href="#projects"><i class="fa-solid fa-folder-open" aria-hidden="true"></i><span>Projects</span></a>
+      <a href="#contact"><i class="fa-solid fa-envelope" aria-hidden="true"></i><span>Contact</span></a>
+    </div>
+  </nav>
+  <main>
+    <section class="hero-section" id="about">
+      <div class="text">
+        <h1>Hi, I'm Nabila Islam Borno.</h1>
+        <p>I'm a Computer Science and Engineering graduate from BRAC University and a System Engineer specializing in Platform Infrastructure &amp; DevOps. My interests include software development, computer vision, machine learning, and the systems that keep applications dependable.</p>
+        <div class="links">
+          <a href="https://github.com/nabilaislam11" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github" aria-hidden="true"></i> GitHub</a>
+          <a href="https://www.linkedin.com/in/nabila-islam-borno-6b4873209" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin" aria-hidden="true"></i> LinkedIn</a>
+          <a href="mailto:nabila.islam.borno@g.bracu.ac.bd"><i class="fa-solid fa-envelope" aria-hidden="true"></i> Email</a>
         </div>
-
-        <div class="right">
-            <a href="#" class="active">
-                <i class="fa-solid fa-code"></i>
-                <span>Skills</span>
-            </a>
-
-            <a href="#">
-                <i class="fa-solid fa-pen"></i>
-                <span>Projects</span>
-            </a>
-
-            <a href="#">
-                <i class="fa-solid fa-address-book"></i>
-                <span>Contact</span>
-            </a>
+      </div>
+      <div class="headshot"><img src="images/a.jpg" alt="Portrait of Nabila Islam Borno"></div>
+    </section>
+    <section class="skills-section" id="skills">
+      <h2>Technical Skills</h2>
+      <p class="text">Programming, frontend development, and applied computing technologies used across academic projects and research.</p>
+      <div class="cells">
+        <div class="cell"><img src="images/html-logo.webp" alt=""><span>HTML</span></div>
+        <div class="cell"><img src="images/css-logo.webp" alt=""><span>CSS</span></div>
+        <div class="cell"><img src="images/javascript-logo.webp" alt=""><span>JavaScript</span></div>
+        <div class="cell"><span>Python</span></div>
+      </div>
+    </section>
+    <section class="projects-section" id="projects">
+      <h2>Selected Projects</h2>
+      <p>Academic software and research work with source materials and project documentation.</p>
+      <div class="projects-container">
+        <article class="project-card">
+          <h3>Drone-Based Infrastructure Detection</h3>
+          <p>IEEE ICECE 2024 computer vision research using original drone imagery, manual annotations, and comparative object detection experiments.</p>
+          <div class="buttons"><a href="https://github.com/nabilaislam11/drone-based-urban-infrastructure-detection" target="_blank" rel="noopener noreferrer">Research</a><a href="https://doi.org/10.1109/ICECE64886.2024.11025116" target="_blank" rel="noopener noreferrer">Publication</a></div>
+        </article>
+        <article class="project-card">
+          <h3>Advanced School Management System</h3>
+          <p>A PHP and Laravel school administration project covering academic records, class organization, scheduling, and application workflows.</p>
+          <div class="buttons"><a href="https://github.com/nabilaislam11/advanced-school-management-system" target="_blank" rel="noopener noreferrer">Source code</a></div>
+        </article>
+        <article class="project-card">
+          <h3>Contextual Hate Speech Detection</h3>
+          <p>CNN-based academic research exploring NLP text classification and evaluation on a labeled social-media dataset.</p>
+          <div class="buttons"><a href="https://github.com/nabilaislam11/contextual-hate-speech-detection-cnn" target="_blank" rel="noopener noreferrer">Research paper</a></div>
+        </article>
+      </div>
+    </section>
+    <section class="contact-section" id="contact">
+      <h2>Contact</h2>
+      <div class="group">
+        <div class="text"><p>For academic collaboration, research discussions, and professional connections, reach me through these channels.</p></div>
+        <div class="contact-options">
+          <a href="mailto:nabila.islam.borno@g.bracu.ac.bd">nabila.islam.borno@g.bracu.ac.bd</a>
+          <a href="https://github.com/nabilaislam11" target="_blank" rel="noopener noreferrer">GitHub profile</a>
+          <a href="https://www.linkedin.com/in/nabila-islam-borno-6b4873209" target="_blank" rel="noopener noreferrer">LinkedIn profile</a>
         </div>
-    </nav>
-
-    <main>
-        <!-- Hero section -->
-        <section class="hero-section">
-            <div class="text">
-                <h2>Hi, I'm Borno.</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad deleniti nemo quos ex tenetur fuga, id
-                    fugit dolores animi saepe error placeat, quibusdam atque tempore dignissimos eum ipsa! Eligendi
-                    commodi eveniet veritatis! Tempore, incidunt quam tempora, suscipit, beatae molestiae ea fugiat
-                    libero similique ratione quisquam adipisci officia aspernatur delectus eius.</p>
-
-                <div class="links">
-                    <a href="#" target="_blank">
-                        <i class="fa-brands fa-github"></i>
-                        <span>GitHub</span>
-                    </a>
-                    <a href="#" target="_blank">
-                        <i class="fa-brands fa-linkedin"></i>
-                        <span>LinkedIn</span>
-                    </a>
-                    <a href="#" target="_blank">
-                        <i class="fa-solid fa-envelope"></i>
-                        <span>Email</span>
-                    </a>
-                </div>
-            </div>
-
-            <div class="headshot">
-                <img src="images/a.jpg" alt="hero headshot">
-            </div>
-        </section>
-
-        <!-- Skills section -->
-         <section class="skills-section">
-            <h2>Skills</h2>
-            <div class="text">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem, eaque, minima atque inventore quis aspernatur saepe hic assumenda reprehenderit ipsam dicta ut suscipit cum odio minus rem! Nam, nihil ducimus.
-            </div>
-
-            <div class="cells">
-                <div class="cell">
-                    <img src="images/html-logo.webp" alt="html logo">
-                    <span>HTML</span>
-                </div>
-            
-                <div class="cell">
-                    <img src="images/css-logo.webp" alt="css logo">
-                    <span>CSS</span>
-                </div>
-            
-                <div class="cell">
-                    <img src="images/javascript-logo.webp" alt="js logo">
-                    <span>Javascript</span>
-                </div>
-            
-                <div class="cell">
-                    <img src="images/react-logo.webp" alt="react logo">
-                    <span>ReactJS</span>
-                </div>
-            </div>
-         </section>
-
-          <!-- Project section  -->
-          <section class="projects-section">
-            <h1>Projects</h1>
-            <p>Here are some of my recent projects that showcase my skills and experience.</p>
-    
-            <div class="projects-container">
-                <div class="project-card">
-                    <h3>Project 1</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.</p>
-                    <div class="buttons">
-                        <a href="#">Code</a>
-                        <a href="#">Demo</a>
-                    </div>
-                </div>
-    
-                <div class="project-card">
-                    <h3>Project 2</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.</p>
-                    <div class="buttons">
-                        <a href="#">Code</a>
-                        <a href="#">Demo</a>
-                    </div>
-                </div>
-    
-                <div class="project-card">
-                    <h3>Project 3</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.</p>
-                    <div class="buttons">
-                        <a href="#">Code</a>
-                        <a href="#">Demo</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-          <!-- Contact section -->
-          <section class="contact-section">
-            <h2>Contact</h2>
-
-            <div class="group">
-                <div class="text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio doloremque neque magni sed quisquam distinctio. Corporis quasi magni laudantium! Totam nostrum dolorem veniam. Minima recusandae laudantium ullam nihil nemo dolores quasi corporis inventore, sed, adipisci maiores cum explicabo earum eligendi eaque itaque qui tenetur quos sapiente dicta quis ratione assumenda.
-                </div>
-
-                <form>
-                    <label for="name">Name</label>
-                    <input type="text" id="name" placeholder="Your name">
-                    <label for="email">Email</label>
-                    <input type="email" id="email" placeholder="Your email">
-
-                    <label for="message">Message</label>
-                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
-
-                    <button type="submit">Send Message</button>
-                </form>
-            </div>
-          </section>
-
-          <footer>
-            <p>&copy; 2025 My Portfolio. All Rights Reserved</p>
-          </footer>
-
-         
-    </main>
+      </div>
+    </section>
+  </main>
+  <footer><p>&copy; 2026 Nabila Islam Borno. All rights reserved.</p><p><a href="https://nabilaislam11.github.io/nabila-portfolio/">Explore my main portfolio</a></p></footer>
 </body>
-
 </html>
