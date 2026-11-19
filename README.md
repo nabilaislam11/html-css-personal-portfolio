@@ -1,29 +1,31 @@
-# Personal Portfolio Website (HTML & CSS)
+# Personal Portfolio Website — HTML & CSS
 
-A responsive personal portfolio website built with HTML5 and CSS3, featuring a landing section, skills showcase, project cards, and a contact section.
-
-## Technology
-
-- HTML5 for page structure
-- CSS3 for layout and styling
-- Font Awesome icons and Google Fonts
-
-## Project structure
-
-- `index.html` — website content and sections
-- `style.css` — styling and responsive layout
-- `images/` — local image assets
-- `borno.zip` — original archived project copy
-
-## View locally
-
-Open `index.html` in a web browser. No build process or package installation is required.
+A responsive personal portfolio website built with **HTML5 and CSS3**, presenting an introduction, frontend skills, selected academic projects, and contact links.
 
 ## Features
 
-The site includes a navigation bar, introductory hero section, skills area, project cards, and contact form layout. It demonstrates frontend page composition and responsive styling.
+- Accessible navigation with links to page sections
+- Introductory profile and social links
+- HTML, CSS, JavaScript, and Python skills display
+- Three project cards linking to research and source-code repositories
+- Direct contact links for email, GitHub, and LinkedIn
+- Mobile layout refinements and keyboard focus indicators
 
-## Portfolio links
+## Technology
 
-- [Current portfolio website repository](https://github.com/nabilaislam11/nabila-portfolio)
-- [GitHub profile](https://github.com/nabilaislam11)
+HTML5 · CSS3 · Font Awesome · Google Fonts
+
+## Project structure
+
+- [`index.html`](index.html) — portfolio page content
+- [`style.css`](style.css) — layout and styling
+- [`images/`](images/) — local images and technology logos
+- [`borno.zip`](borno.zip) — original project archive
+
+## View locally
+
+Open `index.html` in a browser. No package installation or build process is required.
+
+## Current portfolio
+
+The latest portfolio website is maintained separately in [nabila-portfolio](https://github.com/nabilaislam11/nabila-portfolio).
