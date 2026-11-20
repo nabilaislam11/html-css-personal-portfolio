@@ -22,9 +22,9 @@ HTML5 · CSS3 · Font Awesome · Google Fonts
 - [`images/`](images/) — local images and technology logos
 - [`borno.zip`](borno.zip) — original project archive
 
-## View locally
+## Website implementation
 
-Open `index.html` in a browser. No package installation or build process is required.
+The project is a static website that opens directly in a browser.
 
 ## Current portfolio
 
